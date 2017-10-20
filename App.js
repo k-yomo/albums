@@ -1,6 +1,12 @@
 import React from 'react';
-import Header from './src/components/header';
+import { View } from 'react-native';
+import Header from './src/components/Header';
+import AlbumList from './src/components/AlbumList';
+
 
 export default () => (
-  <Header headerText={'Albums!'} />
+  <View>
+    <Header headerText={'Albums!'} />
+    <AlbumList />
+  </View>
 );
