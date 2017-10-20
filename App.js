@@ -1,6 +1,6 @@
 import React from 'react';
-import { Text } from 'react-native';
+import Header from './src/components/header';
 
 export default () => (
-  <Text>Some Text</Text>
+  <Header />
 );
